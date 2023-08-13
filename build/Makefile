@@ -153,29 +153,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/tictactoe/display.o: src/tictactoe/display.cpp.o
-.PHONY : src/tictactoe/display.o
+src/display.o: src/display.cpp.o
+.PHONY : src/display.o
 
 # target to build an object file
-src/tictactoe/display.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o
-.PHONY : src/tictactoe/display.cpp.o
+src/display.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/display.cpp.o
+.PHONY : src/display.cpp.o
 
-src/tictactoe/display.i: src/tictactoe/display.cpp.i
-.PHONY : src/tictactoe/display.i
+src/display.i: src/display.cpp.i
+.PHONY : src/display.i
 
 # target to preprocess a source file
-src/tictactoe/display.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.i
-.PHONY : src/tictactoe/display.cpp.i
+src/display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/display.cpp.i
+.PHONY : src/display.cpp.i
 
-src/tictactoe/display.s: src/tictactoe/display.cpp.s
-.PHONY : src/tictactoe/display.s
+src/display.s: src/display.cpp.s
+.PHONY : src/display.s
 
 # target to generate assembly for a file
-src/tictactoe/display.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.s
-.PHONY : src/tictactoe/display.cpp.s
+src/display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/display.cpp.s
+.PHONY : src/display.cpp.s
 
 src/tictactoe/game.o: src/tictactoe/game.cpp.o
 .PHONY : src/tictactoe/game.o
@@ -201,6 +201,30 @@ src/tictactoe/game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.s
 .PHONY : src/tictactoe/game.cpp.s
 
+src/tictactoe/game_display.o: src/tictactoe/game_display.cpp.o
+.PHONY : src/tictactoe/game_display.o
+
+# target to build an object file
+src/tictactoe/game_display.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o
+.PHONY : src/tictactoe/game_display.cpp.o
+
+src/tictactoe/game_display.i: src/tictactoe/game_display.cpp.i
+.PHONY : src/tictactoe/game_display.i
+
+# target to preprocess a source file
+src/tictactoe/game_display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.i
+.PHONY : src/tictactoe/game_display.cpp.i
+
+src/tictactoe/game_display.s: src/tictactoe/game_display.cpp.s
+.PHONY : src/tictactoe/game_display.s
+
+# target to generate assembly for a file
+src/tictactoe/game_display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.s
+.PHONY : src/tictactoe/game_display.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,12 +237,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/tictactoe/display.o"
-	@echo "... src/tictactoe/display.i"
-	@echo "... src/tictactoe/display.s"
+	@echo "... src/display.o"
+	@echo "... src/display.i"
+	@echo "... src/display.s"
 	@echo "... src/tictactoe/game.o"
 	@echo "... src/tictactoe/game.i"
 	@echo "... src/tictactoe/game.s"
+	@echo "... src/tictactoe/game_display.o"
+	@echo "... src/tictactoe/game_display.i"
+	@echo "... src/tictactoe/game_display.s"
 .PHONY : help
 
 

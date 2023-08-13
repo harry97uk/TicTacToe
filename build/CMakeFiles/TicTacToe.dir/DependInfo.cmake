@@ -9,8 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/harrygardiner/TicTacToe/main.cpp" "CMakeFiles/TicTacToe.dir/main.cpp.o" "gcc" "CMakeFiles/TicTacToe.dir/main.cpp.o.d"
-  "/Users/harrygardiner/TicTacToe/src/tictactoe/display.cpp" "CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o" "gcc" "CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o.d"
+  "/Users/harrygardiner/TicTacToe/src/display.cpp" "CMakeFiles/TicTacToe.dir/src/display.cpp.o" "gcc" "CMakeFiles/TicTacToe.dir/src/display.cpp.o.d"
   "/Users/harrygardiner/TicTacToe/src/tictactoe/game.cpp" "CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o" "gcc" "CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o.d"
+  "/Users/harrygardiner/TicTacToe/src/tictactoe/game_display.cpp" "CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o" "gcc" "CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

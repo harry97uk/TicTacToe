@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/tictactoe/display.o: src/tictactoe/display.cpp.o
+.PHONY : src/tictactoe/display.o
+
+# target to build an object file
+src/tictactoe/display.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o
+.PHONY : src/tictactoe/display.cpp.o
+
+src/tictactoe/display.i: src/tictactoe/display.cpp.i
+.PHONY : src/tictactoe/display.i
+
+# target to preprocess a source file
+src/tictactoe/display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.i
+.PHONY : src/tictactoe/display.cpp.i
+
+src/tictactoe/display.s: src/tictactoe/display.cpp.s
+.PHONY : src/tictactoe/display.s
+
+# target to generate assembly for a file
+src/tictactoe/display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.s
+.PHONY : src/tictactoe/display.cpp.s
+
 src/tictactoe/game.o: src/tictactoe/game.cpp.o
 .PHONY : src/tictactoe/game.o
 
@@ -177,30 +201,6 @@ src/tictactoe/game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.s
 .PHONY : src/tictactoe/game.cpp.s
 
-src/tictactoe/print_board.o: src/tictactoe/print_board.cpp.o
-.PHONY : src/tictactoe/print_board.o
-
-# target to build an object file
-src/tictactoe/print_board.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o
-.PHONY : src/tictactoe/print_board.cpp.o
-
-src/tictactoe/print_board.i: src/tictactoe/print_board.cpp.i
-.PHONY : src/tictactoe/print_board.i
-
-# target to preprocess a source file
-src/tictactoe/print_board.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.i
-.PHONY : src/tictactoe/print_board.cpp.i
-
-src/tictactoe/print_board.s: src/tictactoe/print_board.cpp.s
-.PHONY : src/tictactoe/print_board.s
-
-# target to generate assembly for a file
-src/tictactoe/print_board.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.s
-.PHONY : src/tictactoe/print_board.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,12 +213,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/tictactoe/display.o"
+	@echo "... src/tictactoe/display.i"
+	@echo "... src/tictactoe/display.s"
 	@echo "... src/tictactoe/game.o"
 	@echo "... src/tictactoe/game.i"
 	@echo "... src/tictactoe/game.s"
-	@echo "... src/tictactoe/print_board.o"
-	@echo "... src/tictactoe/print_board.i"
-	@echo "... src/tictactoe/print_board.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
-CMakeFiles/TicTacToe.dir/main.cpp.o: \
-  /Users/harrygardiner/TicTacToe/main.cpp \
+CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o: \
+  /Users/harrygardiner/TicTacToe/src/tictactoe/display.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -414,5 +414,4 @@ CMakeFiles/TicTacToe.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /usr/local/Cellar/raylib/4.5.0/include/raylib.h \
-  /Users/harrygardiner/TicTacToe/include/tictactoe/display.h \
-  /Users/harrygardiner/TicTacToe/include/tictactoe/game.h
+  /Users/harrygardiner/TicTacToe/include/tictactoe/display.h

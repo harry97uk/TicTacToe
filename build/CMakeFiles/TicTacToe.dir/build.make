@@ -83,19 +83,19 @@ CMakeFiles/TicTacToe.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrygardiner/TicTacToe/main.cpp -o CMakeFiles/TicTacToe.dir/main.cpp.s
 
-CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o: CMakeFiles/TicTacToe.dir/flags.make
-CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o: /Users/harrygardiner/TicTacToe/src/tictactoe/print_board.cpp
-CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o: CMakeFiles/TicTacToe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o -MF CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o.d -o CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o -c /Users/harrygardiner/TicTacToe/src/tictactoe/print_board.cpp
+CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o: /Users/harrygardiner/TicTacToe/src/tictactoe/display.cpp
+CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o: CMakeFiles/TicTacToe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o -MF CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o.d -o CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o -c /Users/harrygardiner/TicTacToe/src/tictactoe/display.cpp
 
-CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrygardiner/TicTacToe/src/tictactoe/print_board.cpp > CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.i
+CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrygardiner/TicTacToe/src/tictactoe/display.cpp > CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.i
 
-CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrygardiner/TicTacToe/src/tictactoe/print_board.cpp -o CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.s
+CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrygardiner/TicTacToe/src/tictactoe/display.cpp -o CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.s
 
 CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o: CMakeFiles/TicTacToe.dir/flags.make
 CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o: /Users/harrygardiner/TicTacToe/src/tictactoe/game.cpp
@@ -114,14 +114,14 @@ CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.s: cmake_force
 # Object files for target TicTacToe
 TicTacToe_OBJECTS = \
 "CMakeFiles/TicTacToe.dir/main.cpp.o" \
-"CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o" \
+"CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o" \
 "CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o"
 
 # External object files for target TicTacToe
 TicTacToe_EXTERNAL_OBJECTS =
 
 TicTacToe: CMakeFiles/TicTacToe.dir/main.cpp.o
-TicTacToe: CMakeFiles/TicTacToe.dir/src/tictactoe/print_board.cpp.o
+TicTacToe: CMakeFiles/TicTacToe.dir/src/tictactoe/display.cpp.o
 TicTacToe: CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o
 TicTacToe: CMakeFiles/TicTacToe.dir/build.make
 TicTacToe: /usr/local/Cellar/raylib/4.5.0/lib/libraylib.dylib

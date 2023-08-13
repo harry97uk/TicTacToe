@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 # Add your source files here
 set(SOURCES
     main.cpp
-    src/tictactoe/print_board.cpp
+    src/display.cpp
+    src/tictactoe/game_display.cpp
     src/tictactoe/game.cpp
 )
 

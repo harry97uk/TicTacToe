@@ -3,23 +3,34 @@
 
 #include <raylib.h>
 
+#include "tictactoe/game_display.h"
+
 class Game
 {
 private:
-    int playerNum = 1;
-    int winningPlayer;
+    int playerNum;
+    int winningPlayer = -1;
     bool gameFinished;
+    bool shouldExitGame = false;
     int **board;
+    GameDisplay gameDisplay;
+
+    void ResetBoard();
 
 public:
-    Game(int playerNum);
+    Game(int initPlayerNum);
+    ~Game();
 
-    void ResetGame(int playerNum);
-    void PlayPiece(Vector2 mousePos, float width, float height);
+    void RunGame();
+
+    void ResetGame(int initPlayerNum);
+    void PlayPiece(Vector2 boardPosition);
     void DetermineWinner();
+    void ResetShouldGameExit() { shouldExitGame = false;}
 
     int **GetBoard() { return board; }
     bool IsGameFinished() { return gameFinished; }
+    bool ShouldGameExit() { return shouldExitGame; }
     int GetWinningPlayer() { return winningPlayer; }
 };
 

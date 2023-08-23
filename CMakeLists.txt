@@ -7,6 +7,10 @@ set(CMAKE_CXX_STANDARD 17)
 set(SOURCES
     main.cpp
     src/display.cpp
+    src/button.cpp
+    src/tictactoe/application.cpp
+    src/tictactoe/menu_display.cpp
+    src/tictactoe/menu.cpp
     src/tictactoe/game_display.cpp
     src/tictactoe/game.cpp
 )

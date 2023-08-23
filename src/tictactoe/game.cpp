@@ -2,31 +2,79 @@
 #include <iostream>
 
 #include "tictactoe/game.h"
+#include "tictactoe/game_display.h"
 
-//
-void resetBoard(int** board);
-int determine_placement_X(float mousePosX, float width);
-int determine_placement_Y(float mousePosY, float height);
+// Declarations
+int getNextPlayerNum(int playerNum);
 
-Game::Game(int playerNum) {
-    resetBoard(board);
-    winningPlayer = 0;
-    playerNum = playerNum;
+Game::Game(int initPlayerNum) : gameDisplay(GetScreenWidth(), GetScreenHeight())
+{
+    // Allocate memory for the dynamic 2D array
+    board = new int *[3]; // Create an array of int pointers
+
+    for (size_t i = 0; i < 3; i++)
+    {
+        board[i] = new int[3]; // Create an int array for each row
+        for (size_t j = 0; j < 3; j++)
+        {
+            board[i][j] = 0; // Initialize with default value
+        }
+    }
+
+    ResetGame(initPlayerNum);
+}
+
+Game::~Game()
+{
+    // Deallocate memory for the dynamic 2D array
+    for (size_t i = 0; i < 3; i++)
+    {
+        delete[] board[i]; // Delete the int array for each row
+    }
+    delete[] board; // Delete the array of int pointers
+}
+
+void Game::RunGame()
+{
+
+    if (IsWindowResized())
+        gameDisplay.ResizeGameDisplay();
+
+    if (gameDisplay.ExitGameClicked())
+        shouldExitGame = true;
+
+    if (!IsGameFinished() && IsMouseButtonReleased(MOUSE_BUTTON_LEFT))
+    {
+        Vector2 boardPieceClickedCoords = gameDisplay.BoardSquareClicked();
+
+        if (boardPieceClickedCoords.x != -1 && boardPieceClickedCoords.y != -1)
+            PlayPiece(boardPieceClickedCoords);
+    }
+
+    DetermineWinner();
+
+    if (IsGameFinished() && gameDisplay.PlayAgainClicked())
+        ResetGame(rand() % (1) + 1);
+
+    BeginDrawing();
+
+    gameDisplay.DrawGame(GetBoard(), GetWinningPlayer(), IsGameFinished());
+
+    EndDrawing();
+}
+
+void Game::ResetGame(int initPlayerNum)
+{
+    ResetBoard();
+    winningPlayer = -1;
+    playerNum = initPlayerNum;
     gameFinished = false;
 }
 
-void Game::ResetGame(int playerNum)
+void Game::PlayPiece(Vector2 boardPosition)
 {
-    resetBoard(board);
-    winningPlayer = 0;
-    playerNum = playerNum;
-    gameFinished = false;
-}
-
-void Game::PlayPiece(Vector2 mousePos, float width, float height)
-{
-    int x = determine_placement_X(mousePos.x, width);
-    int y = determine_placement_Y(mousePos.y, height);
+    int x = boardPosition.x;
+    int y = boardPosition.y;
 
     if (board[y][x] == 0)
     {
@@ -39,6 +87,7 @@ void Game::PlayPiece(Vector2 mousePos, float width, float height)
 
 void Game::DetermineWinner()
 {
+    bool isDraw = true;
     for (size_t i = 0; i < 3; i++)
     {
         int vertical = 0;
@@ -49,11 +98,19 @@ void Game::DetermineWinner()
             if (board[i][j] != 0)
                 horizontal += board[i][j];
             else
+            {
+                isDraw = false;
                 horizontal += 10;
+            }
+
             if (board[j][i] != 0)
                 vertical += board[j][i];
             else
+            {
+                isDraw = false;
                 vertical += 10;
+            }
+
             if (i == 0)
             {
                 if (board[j][j] != 0)
@@ -61,6 +118,7 @@ void Game::DetermineWinner()
                 else
                     diagonal += 10;
             }
+
             if (i == 2)
             {
                 if (board[i - j][j] != 0)
@@ -74,16 +132,17 @@ void Game::DetermineWinner()
         if (horizontal == 6 || vertical == 6 || diagonal == 6)
             winningPlayer = 2;
     }
-    if (winningPlayer != 0)
+    if (isDraw && winningPlayer == -1)
+        winningPlayer = 0;
+
+    if (winningPlayer != -1)
         gameFinished = true;
 }
 
-void resetBoard(int** board)
+void Game::ResetBoard()
 {
-    board = new int *[3];
     for (size_t i = 0; i < 3; i++)
     {
-        board[i] = new int[3];
         for (size_t j = 0; j < 3; j++)
         {
             board[i][j] = 0;
@@ -97,22 +156,6 @@ int getNextPlayerNum(int playerNum)
         return 2;
     else if (playerNum == 2)
         return 1;
-}
-
-int determine_placement_X(float mousePosX, float width)
-{
-    if (mousePosX < (width * 5) / 12)
-        return 0;
-    else if (mousePosX < (width * 7) / 12)
+    else
         return 1;
-    return 2;
-}
-
-int determine_placement_Y(float mousePosY, float height)
-{
-    if (mousePosY < (height * 5) / 12)
-        return 0;
-    else if (mousePosY < (height * 7) / 12)
-        return 1;
-    return 2;
 }

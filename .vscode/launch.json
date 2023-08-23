@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/Users/harrygardiner/TicTacToe/build/TicTacToe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "/Users/harrygardiner/TicTacToe",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        }
+    ]
+}

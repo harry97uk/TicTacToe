@@ -414,4 +414,7 @@ CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/harrygardiner/TicTacToe/include/tictactoe/game.h
+  /Users/harrygardiner/TicTacToe/include/tictactoe/game.h \
+  /Users/harrygardiner/TicTacToe/include/tictactoe/game_display.h \
+  /Users/harrygardiner/TicTacToe/include/display.h \
+  /Users/harrygardiner/TicTacToe/include/button.h

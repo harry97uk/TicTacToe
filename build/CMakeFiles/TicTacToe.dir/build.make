@@ -97,10 +97,66 @@ CMakeFiles/TicTacToe.dir/src/display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/display.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrygardiner/TicTacToe/src/display.cpp -o CMakeFiles/TicTacToe.dir/src/display.cpp.s
 
+CMakeFiles/TicTacToe.dir/src/button.cpp.o: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/src/button.cpp.o: /Users/harrygardiner/TicTacToe/src/button.cpp
+CMakeFiles/TicTacToe.dir/src/button.cpp.o: CMakeFiles/TicTacToe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TicTacToe.dir/src/button.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/button.cpp.o -MF CMakeFiles/TicTacToe.dir/src/button.cpp.o.d -o CMakeFiles/TicTacToe.dir/src/button.cpp.o -c /Users/harrygardiner/TicTacToe/src/button.cpp
+
+CMakeFiles/TicTacToe.dir/src/button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/src/button.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrygardiner/TicTacToe/src/button.cpp > CMakeFiles/TicTacToe.dir/src/button.cpp.i
+
+CMakeFiles/TicTacToe.dir/src/button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/button.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrygardiner/TicTacToe/src/button.cpp -o CMakeFiles/TicTacToe.dir/src/button.cpp.s
+
+CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.o: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.o: /Users/harrygardiner/TicTacToe/src/tictactoe/application.cpp
+CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.o: CMakeFiles/TicTacToe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.o -MF CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.o.d -o CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.o -c /Users/harrygardiner/TicTacToe/src/tictactoe/application.cpp
+
+CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrygardiner/TicTacToe/src/tictactoe/application.cpp > CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.i
+
+CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrygardiner/TicTacToe/src/tictactoe/application.cpp -o CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.s
+
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.o: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.o: /Users/harrygardiner/TicTacToe/src/tictactoe/menu_display.cpp
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.o: CMakeFiles/TicTacToe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.o -MF CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.o.d -o CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.o -c /Users/harrygardiner/TicTacToe/src/tictactoe/menu_display.cpp
+
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrygardiner/TicTacToe/src/tictactoe/menu_display.cpp > CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.i
+
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrygardiner/TicTacToe/src/tictactoe/menu_display.cpp -o CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.s
+
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.o: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.o: /Users/harrygardiner/TicTacToe/src/tictactoe/menu.cpp
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.o: CMakeFiles/TicTacToe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.o -MF CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.o.d -o CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.o -c /Users/harrygardiner/TicTacToe/src/tictactoe/menu.cpp
+
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrygardiner/TicTacToe/src/tictactoe/menu.cpp > CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.i
+
+CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrygardiner/TicTacToe/src/tictactoe/menu.cpp -o CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.s
+
 CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o: CMakeFiles/TicTacToe.dir/flags.make
 CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o: /Users/harrygardiner/TicTacToe/src/tictactoe/game_display.cpp
 CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o: CMakeFiles/TicTacToe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o -MF CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o.d -o CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o -c /Users/harrygardiner/TicTacToe/src/tictactoe/game_display.cpp
 
 CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.i: cmake_force
@@ -114,7 +170,7 @@ CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.s: cmake_force
 CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o: CMakeFiles/TicTacToe.dir/flags.make
 CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o: /Users/harrygardiner/TicTacToe/src/tictactoe/game.cpp
 CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o: CMakeFiles/TicTacToe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o -MF CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o.d -o CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o -c /Users/harrygardiner/TicTacToe/src/tictactoe/game.cpp
 
 CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.i: cmake_force
@@ -129,6 +185,10 @@ CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.s: cmake_force
 TicTacToe_OBJECTS = \
 "CMakeFiles/TicTacToe.dir/main.cpp.o" \
 "CMakeFiles/TicTacToe.dir/src/display.cpp.o" \
+"CMakeFiles/TicTacToe.dir/src/button.cpp.o" \
+"CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.o" \
+"CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.o" \
+"CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.o" \
 "CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o" \
 "CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o"
 
@@ -137,12 +197,16 @@ TicTacToe_EXTERNAL_OBJECTS =
 
 TicTacToe: CMakeFiles/TicTacToe.dir/main.cpp.o
 TicTacToe: CMakeFiles/TicTacToe.dir/src/display.cpp.o
+TicTacToe: CMakeFiles/TicTacToe.dir/src/button.cpp.o
+TicTacToe: CMakeFiles/TicTacToe.dir/src/tictactoe/application.cpp.o
+TicTacToe: CMakeFiles/TicTacToe.dir/src/tictactoe/menu_display.cpp.o
+TicTacToe: CMakeFiles/TicTacToe.dir/src/tictactoe/menu.cpp.o
 TicTacToe: CMakeFiles/TicTacToe.dir/src/tictactoe/game_display.cpp.o
 TicTacToe: CMakeFiles/TicTacToe.dir/src/tictactoe/game.cpp.o
 TicTacToe: CMakeFiles/TicTacToe.dir/build.make
 TicTacToe: /usr/local/Cellar/raylib/4.5.0/lib/libraylib.dylib
 TicTacToe: CMakeFiles/TicTacToe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TicTacToe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/harrygardiner/TicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TicTacToe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TicTacToe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
